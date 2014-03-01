@@ -36,6 +36,10 @@ module GlobalPhone
       @example_numbers ||= json_fixture(:example_numbers)
     end
 
+    def example_short_numbers
+      @example_short_numbers ||= [["689","AC"], ["112","SE"], ["000","SE"], ["ABC","SE"]]
+    end
+
     def record_data
       @record_data ||= json_fixture(:record_data)
     end
