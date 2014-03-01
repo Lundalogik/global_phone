@@ -12,14 +12,14 @@ GlobalPhone parses, validates, and formats local and international phone numbers
 
 ## Installation
 
-1. Add the `global_phone` gem to your app. For example, using Bundler:
+1. Add the `globalphone` gem to your app. For example, using Bundler:
 
-        $ echo "gem 'global_phone'" >> Gemfile
+        $ echo "gem 'globalphone'" >> Gemfile
         $ bundle install
 
-2. Use `global_phone_dbgen` to convert Google's libphonenumber `PhoneNumberMetaData.xml` file into a JSON database for GlobalPhone.
+2. Use `globalphone_dbgen` to convert Google's libphonenumber `PhoneNumberMetaData.xml` file into a JSON database for GlobalPhone.
 
-        $ gem install global_phone_dbgen
+        $ gem install globalphone_dbgen
         $ global_phone_dbgen > db/global_phone.json
 
 3. Tell GlobalPhone where to find the database. For example, in a Rails app, create an initializer in `config/initializers/global_phone.rb`:
@@ -138,9 +138,9 @@ Territory heuristics are imprecise. Parsing a number will usually result in the 
 
 ## Development
 
-The GlobalPhone source code is [hosted on GitHub](https://github.com/sstephenson/global_phone). You can check out a copy of the latest code using Git:
+The Fork of GlobalPhone source code is [fork hosted on GitHub](https://github.com/Lundalogik/globalphone_fork). You can check out a copy of the latest code using Git:
 
-    $ git clone https://github.com/sstephenson/global_phone.git
+    $ git clone https://github.com/Lundalogik/globalphone_fork.git
 
 If you've found a bug or have a question, please open an issue on the [issue tracker](https://github.com/sstephenson/global_phone/issues). Or, clone the GlobalPhone repository, write a failing test case, fix the bug, and submit a pull request.
 
