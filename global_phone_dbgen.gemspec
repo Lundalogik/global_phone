@@ -2,7 +2,7 @@ $:.unshift File.expand_path("../lib", __FILE__)
 require "global_phone"
 
 Gem::Specification.new do |s|
-  s.name = "global_phone_dbgen"
+  s.name = "globalphone_dbgen"
   s.version = GlobalPhone::VERSION
   s.summary = "Generate databases for use with the GlobalPhone library"
   s.description = "Provides a global_phone_dbgen command to generate databases for the GlobalPhone library."
@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
 
   s.authors = ["Sam Stephenson"]
   s.email = ["sstephenson@gmail.com"]
-  s.homepage = "https://github.com/sstephenson/global_phone"
+  s.homepage = "https://github.com/Lundalogik/globalphone_fork"
 end
