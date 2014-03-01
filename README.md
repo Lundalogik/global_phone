@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Lundalogik/globalphone_fork.png?branch=master)](https://travis-ci.org/Lundalogik/globalphone_fork) 
+
 # GlobalPhone
 
 GlobalPhone parses, validates, and formats local and international phone numbers according to the [E.164 standard](http://en.wikipedia.org/wiki/E.164).
