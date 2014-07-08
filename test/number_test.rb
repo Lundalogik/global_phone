@@ -46,6 +46,11 @@ module GlobalPhone
       assert_equal "(312) 555-1212", number.national_format
     end
 
+    test "national_format" do
+      number = context.parse("07411 111111", :gb)
+      assert_equal "07411 111111", number.national_format
+    end
+
     test "international_string" do
       number = context.parse("(312) 555-1212")
       assert_equal "+13125551212", number.international_string
